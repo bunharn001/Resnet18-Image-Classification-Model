@@ -6,9 +6,9 @@ import os
 from PIL import Image, ImageDraw, ImageFont
 
 # Paths
-data_dir = r"C:\Users\ss790\Documents\Python"
+data_dir = r"C:\Users\User\Resnet18-Image-Classification-Model"
 predict_dir = os.path.join(data_dir, "predict")
-model_path = os.path.join(data_dir, "resnet18_dogcat.pth")
+model_path = os.path.join(data_dir, "TestTest.pth")
 result_dir = os.path.join(data_dir, "result")
 
 # Classes (must match your training order)
@@ -66,10 +66,10 @@ for fname in os.listdir(predict_dir):
         x = (img_width - text_width) // 2
         y = (img_height - text_height) // 2
         margin = 10
-        draw.rectangle(
-            [x - margin, y - margin, x + text_width + margin, y + text_height + margin],
-            fill=(255, 255, 255, 180)
-        )
+        # draw.rectangle(
+        #     [x - margin, y - margin, x + text_width + margin, y + text_height + margin],
+        #     fill=(255, 255, 255, 180)
+        # )
         draw.text((x, y), text, fill=(255, 0, 0), font=font)
 
         # Rename and save to result directory
