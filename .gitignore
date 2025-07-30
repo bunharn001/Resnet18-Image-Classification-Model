@@ -4,3 +4,7 @@
 
 # Ignore result and predict folders (remove the ! if you want to track them)
 train/
+test/
+result/
+predict/
+val/
