@@ -1,0 +1,10 @@
+{
+    "data_dir": "C:\\Users\\ss790\\Documents\\code\\Resnet18-Image-Classification-Model",
+    "saved_model_path":"C:\\Users\\ss790\\Documents\\code\\Resnet18-Image-Classification-Model\\resnet18.pth",
+    
+    "num_epochs": 10,
+    "batch": 5,
+    "classes": ["dog","cat"]
+
+    
+}

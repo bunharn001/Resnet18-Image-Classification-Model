@@ -1,6 +1,7 @@
 # Ignore model weights and large files
 *.pth
 *.pt
+*.jpg
 
 # Ignore result and predict folders (remove the ! if you want to track them)
 train/
